@@ -52,7 +52,7 @@ def load_image_safe(path, size=None):
         print(f"Не вдалося завантажити {path}")
         return None
 
-game_bg = load_image_safe('images/backgrounds', (WIDTH, HEIGHT))
+game_bg = load_image_safe('images/backgrounds/img.png', (WIDTH, HEIGHT))
 
 #ball_img = load_image_safe('images/game_elements/ping-ball', (WIDTH, HEIGHT))
 # --- ГРА ---
